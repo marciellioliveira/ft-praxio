@@ -5,15 +5,11 @@ $corBordaBotao: #867FF6
 $corBordaInput: #C2C2C2
 $corLink: #0077C5
 
+nav a 
+	margin-left: 5%
+
 div#form-vertical 
-  -webkit-transform: translate(-50%,-50%)
-  transform: translate(-50%,-50%)
-  position: absolute
-  top: 50%
-  left: 50%  
-  width: 373px
-  height: 227px
-  text-align: center
+	text-align: center
 
 div#form-vertical h5
 	font-size: 29px
@@ -46,6 +42,43 @@ div#form-vertical form button
 div#form-vertical form #cadastrar
 	color: $corLink
 	font-size: 16px
+
+.container-fluid	
+	width: 100%
+	position: absolute
+	top: 0px
+	bottom: 0px
+
+.container-fluid .jumbotron
+	background-color: $corFundo
+	z-index: 4
+
+.container-fluid .div-center	
+	position: absolute
+	left: 0px
+	right: 0px
+	top: 0px
+	bottom: 0px
+	margin: auto
+	max-width: 100%
+	max-height: 100%
+	overflow: auto
+	padding: 1em 2em	
+	display: table
+	width: 100%
+
+.container-fluid .div-center .footer 
+	//height: 1043px	
+	position: fixed
+	left: 0px
+	width: 100%		 
+	top: 85%
+
+.container-fluid .div-center .footer img
+	width: 100%
+	
+
+	
 
 
 
