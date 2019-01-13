@@ -1,19 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1063" height="1043" viewBox="0 0 1063 1043">
-  <defs>
-    <clipPath id="clip-bg-front">
-      <rect width="1063" height="1043"/>
-    </clipPath>
-  </defs>
-  <g id="bg-front" clip-path="url(#clip-bg-front)">
-    <g id="Group_4000" data-name="Group 4000" transform="translate(-141 108)">
-      <g id="Group_3991" data-name="Group 3991" transform="translate(0 48)">
-        <g id="Group_3989" data-name="Group 3989" transform="translate(-780.656 -112.273)">
-          <path id="Path_4424" data-name="Path 4424" d="M63.209,167.268C87.786,129.862,233.02-76.163,398.141,30.162s388.3,194.1,368.164,263.531,8.717,328.556-131.956,393.436-334.94,143.679-433.128,92.84S-8.517,618.141.515,460.8,38.628,204.675,63.209,167.268Z" transform="matrix(0.017, 1, -1, 0.017, 1855.604, 96.248)" fill="#843dff"/>
-          <path id="Path_4423" data-name="Path 4423" d="M84.905,214.579c31.976-47.616,220.75-310.005,431.184-177.66s495.551,240.491,468.87,328.545S992.1,780.831,810.905,864.674,379.63,1050.646,254.345,987.613-12.62,785.652.9,586.563,52.924,262.2,84.905,214.579Z" transform="matrix(0.358, 0.934, -0.934, 0.358, 1756.803, -153.699)" fill="#843dff" opacity="0.33"/>
-          <path id="Path_4425" data-name="Path 4425" d="M84.905,214.579c31.976-47.616,220.75-310.005,431.184-177.66s495.551,240.491,468.87,328.545S992.1,780.831,810.905,864.674,379.63,1050.646,254.345,987.613-12.4,766.465,1.122,567.376,52.924,262.2,84.905,214.579Z" transform="translate(2146.259 311.899) rotate(120)" fill="#3d4aff" opacity="0.33"/>
-        </g>
-      </g>
-      <path id="Path_4411" data-name="Path 4411" d="M0,0H1381.5V80.5H0Z" transform="translate(1374 78.5) rotate(180)" fill="none"/>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1063 1043" style="enable-background:new 0 0 1063 1043;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#843DFF;}
+	.st2{opacity:0.33;fill:#843DFF;enable-background:new    ;}
+	.st3{opacity:0.33;fill:#3D4AFF;enable-background:new    ;}
+	.st4{fill:none;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="1063" height="1043"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="bg-front" class="st0">
+		<g id="Group_4000" transform="translate(-141 108)">
+			<g id="Group_3991" transform="translate(0 48)">
+				<g id="Group_3989" transform="translate(-780.656 -112.273)">
+					<path id="Path_4424" class="st1" d="M1689.4,162.3c37.8,23.9,246.3,165.7,142.8,332.6s-187.5,391.6-257.3,372.6
+						s-328.4,14.3-395.7-125.3s-149.4-332.5-100.2-431.5c49.2-99.1,158.3-212.5,315.8-206.1C1552.3,111,1651.6,138.4,1689.4,162.3z"
+						/>
+					<path id="Path_4423" class="st2" d="M1586.8,2.4c55.9,12.8,368.6,95.2,320.3,339.1c-48.3,243.9-47.2,548.9-139,555.5
+						c-91.8,6.6-385.4,155.4-528.6,16.2S911.4,577,925.4,437.4s93.1-321.6,283.8-380.3S1530.9-10.4,1586.8,2.4z"/>
+					<path id="Path_4425" class="st3" d="M1918,278.1c25.2,51.5,158.1,346.2-61.7,462.2c-219.8,116.1-456,308.9-519,241.8
+						S974,780.7,992,581.8s54.6-466.5,171.8-543.5c117.2-77,324.9-120.4,490.5-9.2S1892.7,226.6,1918,278.1z"/>
+				</g>
+			</g>
+			<path id="Path_4411" class="st4" d="M1374,78.5H-7.5V-2H1374V78.5z"/>
+		</g>
+	</g>
+</g>
+<image style="overflow:visible;" width="284" height="178" xlink:href="front-test-titulo.png"  transform="matrix(1.3908 0 0 1.3908 334 236)">
+</image>
 </svg>
