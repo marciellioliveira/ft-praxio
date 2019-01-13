@@ -1,3 +1,28 @@
-<p>
-  login works!
-</p>
+<div class="container-fluid">	
+	<div class="row">
+		<nav class="navbar navbar-expand-sm">
+		   <a class="navbar-brand" href="/login">
+		    <img src="./assets/imagens/front-test-logo.png" alt="Logo" style="width:40px;">
+		  </a>		 
+		</nav>
+		<div class="col-sm-4"></div>
+  		<div class="col-sm-4" id="form-vertical">
+
+  			<form action="/inicio">
+			  <div class="form-group">
+			    <h5>Entrar</h5>
+			    <input type="email" class="form-control" id="email" placeholder="Email">
+			  </div>
+			  <div class="form-group">			    
+			    <input type="password" class="form-control" id="pwd" placeholder="Senha">
+			  </div>
+			  <a routerLink="/recuperarSenha" id="recuperarSenha">ESQUECEU A SENHA?</a>
+			  <br>
+			  <button type="submit" class="btn">Entrar</button>			 
+			  <a routerLink="/cadastro" id="cadastrar">Não tem uma conta? Cadastre-se</a>
+			</form>			
+				
+  		</div>
+  		<div class="col-sm-4"></div>
+	</div>
+</div>
