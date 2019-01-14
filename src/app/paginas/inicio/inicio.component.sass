@@ -14,7 +14,12 @@ $corTituloCard: #733FFF
   font-size: 14px
 
 .navbar
-	z-index: 4px	
+	z-index: 5	
+	
+
+.navbar #navbarSupportedContent 
+	z-index: 5
+	
 
 .navbar .form-inline button
 	height: 36px
@@ -25,9 +30,6 @@ $corTituloCard: #733FFF
 	border: 1px solid $corBordaLogout
 	color: $corTexto
 
-
-
-
 //nav a 
 //	margin-left: 5%
 
@@ -36,6 +38,8 @@ $corTituloCard: #733FFF
 
 div.col-sm-2
 	background-color: transparent!important
+	z-index: -5!important
+	//background-color: green
 
 div#form-vertical 
 	text-align: center
@@ -118,6 +122,9 @@ div#form-vertical form #cadastrar
 	max-width: 100%
 	z-index: -5
 
+#container .div-center #form-vertical #imgFront
+	top: -25%
+
 #container .div-center #form-vertical .informacao
 	//background-color: green
 	//margin-top: 30%
@@ -157,7 +164,6 @@ div#form-vertical form #cadastrar
 #container .div-center #form-vertical .card-group #cardE .card-footer
 	background-color: transparent!important
 	border: none!important
-
 
 #container .div-center #form-vertical .card-group #cardC
 	background-color: $corFundo!important
@@ -210,6 +216,15 @@ div#form-vertical form #cadastrar
 #container .div-center #form-vertical .card-group #imgFrenteE	
 	margin-top: 40%
 
+#container .div-center #form-vertical .card-group #btnE
+	height: 36px
+	width: 100%
+	font-size: 16px	
+	border-radius: 32px
+	background-color: $corFundo
+	border: 1px solid $corBordaLogout
+	color: $corTexto
+
 #container .div-center #form-vertical .card-group #imgFundoC
 	width: 60%
 	height: 40%
@@ -222,6 +237,14 @@ div#form-vertical form #cadastrar
 #container .div-center #form-vertical .card-group #imgFrenteC	
 	margin-top: 59%
 
+#container .div-center #form-vertical .card-group #btnC
+	height: 36px
+	width: 100%
+	font-size: 16px	
+	border-radius: 32px
+	background-color: $corBotao
+	border: 1px solid $corBordaLogout
+	color: white
 
 #container .div-center #form-vertical .card-group #imgFundoD
 	width: 60%
@@ -235,22 +258,32 @@ div#form-vertical form #cadastrar
 #container .div-center #form-vertical .card-group #imgFrenteD	
 	margin-top: 40%
 
-
-
-
-	
-	
-
-#container .div-center .footer 
-	//height: 1043px	
-	position: fixed
-	left: 0px
-	width: 100%		 
-	top: 86%
-
-#container .div-center .footer img
+#container .div-center #form-vertical .card-group #btnD
+	height: 36px
 	width: 100%
+	font-size: 16px	
+	border-radius: 32px
+	background-color: $corFundo
+	border: 1px solid $corBordaLogout
+	color: $corTexto
+
+#container .div-center #form-vertical #separacaoConteudoRodape
+	margin-top: 8%
 	
+
+#container .div-center #form-vertical footer #esquerda
+	
+
+#container .div-center #form-vertical footer #direita
+	
+
+#container .div-center #form-vertical footer #direita img 
+	margin-top: 2%
+	width: 100%
+
+
+
+
 
 	
 

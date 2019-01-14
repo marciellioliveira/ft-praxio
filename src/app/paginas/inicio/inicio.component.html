@@ -1,126 +1,148 @@
 <div class="container-fluid" id="container">	<!--  id="container" -->
 
-<nav class="navbar bg-transparent navbar-expand-lg navbar-light bg-light" >
-  <a class="navbar-brand" href="#"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+	<nav class="navbar bg-transparent navbar-expand-lg navbar-light bg-light fixed-top" >
+		<a class="navbar-brand" href="#"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-       
-      </li>
-      
-      
-      <li class="nav-item">
-        <img src="./assets/imagens/front-test-logo.png" alt="Logo" >
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">     
+		<div class="collapse navbar-collapse" id="navbarSupportedContent" >
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active"></li>
+				<li class="nav-item">
+					<img src="./assets/imagens/front-test-logo.png" alt="Logo" >
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">     
 
-    <a routerLink="/login" id="cadastrar">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button>
-  </a>
-    </form>
-  </div>
-</nav>
+				<a routerLink="/login" id="cadastrar">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button>
+				</a>
+			</form>
+		</div>
+	</nav>
 	
 
 	<div class="jumbotron div-center">	
-	<div class="row" >
+		<div class="row">
 
-		<div class="col-sm-2"></div>
-		<div class="col-sm-8 " id="form-vertical">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 " id="form-vertical" >		
 
-			<div style="height: 35%; width: 35%;">
-				
-			</div>
-			
-			<div class="informacao">
-				
-				<img class="imgBackground" src="./assets/imagens/bg-front-novo.png" alt="Background" >
+				<div style="height: 40%; width: 40%; " >
 
-			<p id="textoApresentacao">
-				Teste para a vaga de Programador Front-End Junior.<br>
-				Programadora: Marcielli Oliveira | Formada: Fatec Cruzeiro.
-			</p>
+				</div>
+				<img  src="./assets/imagens/bg-front.png" alt="Background" id="imgBg">
+				<img  src="./assets/imagens/front-test.png" alt="FrontTeste" id="imgFront">
+
+				<div class="informacao" >							
+
+					<p id="textoApresentacao">
+						Teste para a vaga de Programador Front-End Junior.<br>
+						Programadora: Marcielli Oliveira | Formada: Fatec Cruzeiro.
+					</p>
 
 
-			<a href="https://github.com/marciellioliveira/ft-praxio"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Saiba mais</button></a>
+					<a href="https://github.com/marciellioliveira/ft-praxio"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Saiba mais</button></a>
 
-			</div>
-			
-			<div class="card-group">
-				<div class="card bg-primary" id="cardE">
-					<div class="card-header">
-						<p class="card-text titulo">Mussum Ipsum cacilds</p>
-					</div>
-					<div class="card-body text-center">						
+				</div>
 
-						<img src="./assets/imagens/bg-front.png" id="imgFundoE">
-						<img src="./assets/imagens/fingerprint.png" id="imgFrenteE">
+				<div class="card-group" >
+					<div class="card bg-primary" id="cardE">
+						<div class="card-header">
+							<p class="card-text titulo">Mussum Ipsum cacilds</p>
+						</div>
+						<div class="card-body text-center">						
+
+							<img src="./assets/imagens/bg-front.png" id="imgFundoE">
+							<img src="./assets/imagens/fingerprint.png" id="imgFrenteE">
 							
+						</div>
+						<div class="card-footer">
+							<p>
+								Delegadis gente finis, bibendum
+								egestas augue arcu ut est 
+								interessantiss quisso pudia.
+							</p>
+							<a href="https://github.com/marciellioliveira/ft-praxio"><button class="btn btn-outline-success my-2 my-sm-0" id="btnE" type="submit">Saiba mais</button></a>
+						</div>
 					</div>
-					<div class="card-footer">
-						<p>
-						Delegadis gente finis, bibendum
-						egestas augue arcu ut est 
-						interessantiss quisso pudia.
-						</p>
+					<div class="card bg-warning" id="cardC">
+						<div class="card-header">
+							<p class="card-text titulo">Mussum Ipsum cacilds</p>
+						</div>
+						<div class="card-body text-center">						
+							<br><br>
+							<img src="./assets/imagens/bg-front.png" id="imgFundoC">
+							<img src="./assets/imagens/fingerprint.png" id="imgFrenteC">
+						</div>
+						<div class="card-footer">
+							<p>
+								Delegadis gente finis, bibendum
+								egestas augue arcu ut est 
+								interessantiss quisso pudia.
+							</p>
+							<a href="https://github.com/marciellioliveira/ft-praxio"><button class="btn btn-outline-success my-2 my-sm-0" id="btnC" type="submit">Saiba mais</button></a>
+						</div>
 					</div>
-				</div>
-				<div class="card bg-warning" id="cardC">
-					<div class="card-header">
-						<p class="card-text titulo">Mussum Ipsum cacilds</p>
-					</div>
-					<div class="card-body text-center">						
-						<br><br>
-						<img src="./assets/imagens/bg-front.png" id="imgFundoC">
-						<img src="./assets/imagens/fingerprint.png" id="imgFrenteC">
-					</div>
-					<div class="card-footer">
-						<p>
-						Delegadis gente finis, bibendum
-						egestas augue arcu ut est 
-						interessantiss quisso pudia.
-						</p>
-					</div>
-				</div>
 
-				<div class="card bg-success" id="cardD">
-					<div class="card-header">
-						<p class="card-text titulo">Mussum Ipsum cacilds</p>
+					<div class="card bg-success" id="cardD">
+						<div class="card-header">
+							<p class="card-text titulo">Mussum Ipsum cacilds</p>
+						</div>
+						<div class="card-body text-center">
+
+							<img src="./assets/imagens/bg-front.png" id="imgFundoD">
+							<img src="./assets/imagens/fingerprint.png" id="imgFrenteD">
+						</div>
+						<div class="card-footer">
+							<p>
+								Delegadis gente finis, bibendum
+								egestas augue arcu ut est 
+								interessantiss quisso pudia.
+							</p>
+							<a href="https://github.com/marciellioliveira/ft-praxio"><button class="btn btn-outline-success my-2 my-sm-0" id="btnD" type="submit">Saiba mais</button></a>
+						</div>
+					</div>    
+				</div>	<!-- /card-group -->	
+
+				<hr id="separacaoConteudoRodape">
+
+			<footer class="container-fluid bg-4 text-center">		
+
+				<div class="row">
+					<div class="col-sm-4" id="esquerda">
+						<a href=""><p>dsadasd</p></a>
+						<a href=""><p>dsadasd</p></a>
+						<a href=""><p>dsadasd</p></a>
+						<a href=""><p>dsadasd</p></a>
+						<a href=""><p>dsadasd</p></a>
+						<a href=""><p>dsadasd</p></a>
+						<a href=""><p>dsadasd</p></a>
+						<a href=""><p>dsadasd</p></a>
 					</div>
-					<div class="card-body text-center">
+					<div class="col-sm-8" id="direita">
 						
-						<img src="./assets/imagens/bg-front.png" id="imgFundoD">
-						<img src="./assets/imagens/fingerprint.png" id="imgFrenteD">
-					</div>
-					<div class="card-footer">
-						<p>
-						Delegadis gente finis, bibendum
-						egestas augue arcu ut est 
-						interessantiss quisso pudia.
-						</p>
-					</div>
-				</div>    
-			</div>
-			
-			<div>dsadas</div>
-			<div>dsadas</div>
-			
-			
+						<div class="thumbnail">
+							<img src="./assets/imagens/footer.png" alt="Rodapé">			       
+						</div>						
 
-		</div>
+					</div>
+				</div>
+				
+			</footer>
+
+
+		</div> <!-- /form-vertical -->
 
 
 		<div class="col-sm-2 "></div>
+	</div> <!-- /row -->	
+	
+</div> <!-- /jumbotron /div.center -->
 
-	</div>
-	<div class="footer">		
-		<!--<img src="./assets/imagens/bg-front.png" alt="Logo" >-->		
-	</div>
-	</div>
+</div> <!-- /container.fluid /container -->
 
-</div>
+
+
+
