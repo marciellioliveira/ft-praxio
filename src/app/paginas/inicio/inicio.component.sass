@@ -7,6 +7,7 @@ $corPlaceholder: #CAD0DC
 $corLink: #0077C5
 $corBordaLogout: #EAEAEC
 $corTituloCard: #733FFF
+$corTextoRodape: #707070
 
 
 ::placeholder 
@@ -19,7 +20,7 @@ $corTituloCard: #733FFF
 
 .navbar #navbarSupportedContent 
 	z-index: 5
-	
+
 
 .navbar .form-inline button
 	height: 36px
@@ -270,9 +271,19 @@ div#form-vertical form #cadastrar
 #container .div-center #form-vertical #separacaoConteudoRodape
 	margin-top: 8%
 	
-
-#container .div-center #form-vertical footer #esquerda
+#container .div-center #form-vertical footer #esquerda table tr td
+	border: none!important	
+	text-align: left
+	//width: 100%
+	//background-color: green
 	
+#container .div-center #form-vertical footer #esquerda table tr td a
+	color: $corTextoRodape
+	font-size: 16px	
+
+#container .div-center #form-vertical footer #esquerda table tr td a:hover
+	color: $corBotao
+
 
 #container .div-center #form-vertical footer #direita
 	
