@@ -9,33 +9,16 @@ $corBordaLogout: #EAEAEC
 $corTituloCard: #733FFF
 $corTextoRodape: #707070
 
-
 ::placeholder 
   color: $corPlaceholder
   font-size: 14px
 
-.navbar
-	z-index: 5	
-	
-
-.navbar #navbarSupportedContent 
-	z-index: 5
-
-
-.navbar .form-inline button
-	height: 36px
-	width: 124px
-	font-size: 16px	
-	border-radius: 32px
-	background-color: $corFundo
-	border: 1px solid $corBordaLogout
-	color: $corTexto
-
-//nav a 
-//	margin-left: 5%
-
-//nav button 
-//	float: right
+.Background
+  //background-image: url('/assets/imagens/bg-front.png') top center no-repeat
+  height: 1000px  
+  width: 1000px
+  padding: 1em
+  margin: 0 auto
 
 div.col-sm-2
 	background-color: transparent!important
@@ -113,18 +96,23 @@ div#form-vertical form #cadastrar
 	display: table
 	width: 100%
 
-#container .div-center #form-vertical img
+#container .div-center #form-vertical #imgBg
 	position: absolute
 	left: 0px
 	bottom: 0px
 	right: 0px
 	top: 20px
-	margin: auto
+	//margin: auto
+	margin-top: 80%
 	max-width: 100%
 	z-index: -5
 
 #container .div-center #form-vertical #imgFront
-	top: -25%
+	//top: -15%
+	//border: 4px solid red
+	//margin-top: -20%
+	width: 35%
+
 
 #container .div-center #form-vertical .informacao
 	//background-color: green
@@ -133,9 +121,11 @@ div#form-vertical form #cadastrar
 	//padding-top: 50%
 
 #container .div-center #form-vertical .informacao #textoApresentacao
-	padding-top: 12%
+	padding-top: 5%
 	color: white
 	padding-bottom: 1%
+	font-weight: bold
+
 
 #container .div-center #form-vertical .informacao button
 	background-color: transparent!important
@@ -207,15 +197,32 @@ div#form-vertical form #cadastrar
 
 #container .div-center #form-vertical .card-group #imgFundoE
 	width: 60%
-	height: 40%
+	//height: 60%
+	display: block
 	position: relative
-  	top: 50%
-  	-webkit-transform: translateY(-50%)
-  	-ms-transform: translateY(-50%)
-  	transform: translateY(-50%)
+	margin-left: auto
+	margin-right: auto
+	z-index: 1
+	//position: relative
+	//top: 50%
+	//width: 60%
+	//height: 40%
+	//position: relative
+	//top: 50%  	
+  //	-webkit-transform: translateY(-50%)
+  	//-ms-transform: translateY(-50%)
+  //	transform: translateY(-50%)
 
 #container .div-center #form-vertical .card-group #imgFrenteE	
-	margin-top: 40%
+	//margin-top: 40%
+	z-index: 4
+	display: block	
+	position: relative
+	margin-left: auto
+	margin-right: auto
+	margin-top: -40%	
+
+
 
 #container .div-center #form-vertical .card-group #btnE
 	height: 36px
@@ -228,15 +235,30 @@ div#form-vertical form #cadastrar
 
 #container .div-center #form-vertical .card-group #imgFundoC
 	width: 60%
-	height: 40%
+	//height: 60%
+	display: block
 	position: relative
-  	top: 50%
-  	-webkit-transform: translateY(-50%)
-  	-ms-transform: translateY(-50%)
-  	transform: translateY(-50%)
+	margin-left: auto
+	margin-right: auto
+	z-index: 1
+	//position: relative
+	//top: 50%
+	//width: 60%
+	//height: 40%
+	//position: relative
+	//top: 50%  	
+  //	-webkit-transform: translateY(-50%)
+  	//-ms-transform: translateY(-50%)
+  //	transform: translateY(-50%)
 
 #container .div-center #form-vertical .card-group #imgFrenteC	
-	margin-top: 59%
+	//margin-top: 40%
+	z-index: 4
+	display: block	
+	position: relative
+	margin-left: auto
+	margin-right: auto
+	margin-top: -40%
 
 #container .div-center #form-vertical .card-group #btnC
 	height: 36px
@@ -249,15 +271,30 @@ div#form-vertical form #cadastrar
 
 #container .div-center #form-vertical .card-group #imgFundoD
 	width: 60%
-	height: 40%
+	//height: 60%
+	display: block
 	position: relative
-  	top: 50%
-  	-webkit-transform: translateY(-50%)
-  	-ms-transform: translateY(-50%)
-  	transform: translateY(-50%)
+	margin-left: auto
+	margin-right: auto
+	z-index: 1
+	//position: relative
+	//top: 50%
+	//width: 60%
+	//height: 40%
+	//position: relative
+	//top: 50%  	
+  //	-webkit-transform: translateY(-50%)
+  	//-ms-transform: translateY(-50%)
+  //	transform: translateY(-50%)
 
 #container .div-center #form-vertical .card-group #imgFrenteD	
-	margin-top: 40%
+	//margin-top: 40%
+	z-index: 4
+	display: block	
+	position: relative
+	margin-left: auto
+	margin-right: auto
+	margin-top: -40%	
 
 #container .div-center #form-vertical .card-group #btnD
 	height: 36px
@@ -268,29 +305,7 @@ div#form-vertical form #cadastrar
 	border: 1px solid $corBordaLogout
 	color: $corTexto
 
-#container .div-center #form-vertical #separacaoConteudoRodape
-	margin-top: 8%
-	
-#container .div-center #form-vertical footer #esquerda table tr td
-	border: none!important	
-	text-align: left
-	//width: 100%
-	//background-color: green
-	
-#container .div-center #form-vertical footer #esquerda table tr td a
-	color: $corTextoRodape
-	font-size: 16px	
 
-#container .div-center #form-vertical footer #esquerda table tr td a:hover
-	color: $corBotao
-
-
-#container .div-center #form-vertical footer #direita
-	
-
-#container .div-center #form-vertical footer #direita img 
-	margin-top: 2%
-	width: 100%
 
 
 
