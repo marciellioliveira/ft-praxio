@@ -15,7 +15,8 @@ $corTextoRodape: #707070
 
 .Background
   //background-image: url('/assets/imagens/bg-front.png') top center no-repeat
-  height: 1000px  
+  //height: 1000px  
+  height: 355px 
   width: 1000px
   padding: 1em
   margin: 0 auto
@@ -82,36 +83,65 @@ div#form-vertical form #cadastrar
 	z-index: 4
 	background-color: transparent!important
 
-#container .div-center	
+#container .div-center
+	text-align: center
+
+
+#container .div-center #imgBg
 	position: absolute
 	left: 0px
+	bottom: 0px
 	right: 0px
 	top: 0px
-	bottom: 0px
+	padding-top: 10%	
+	//margin-top: 75%
 	margin: auto
-	max-width: 100%
-	max-height: 100%
-	overflow: auto
-	padding: 1em 2em	
-	display: table
-	width: 100%
-
-#container .div-center #form-vertical #imgBg
-	position: absolute
-	left: 0px
-	bottom: 0px
-	right: 0px
-	top: 20px
-	//margin: auto
-	margin-top: 75%
 	max-width: 100%
 	z-index: -5
 
-#container .div-center #form-vertical #imgFront
+#container .div-center #imgFront
+	position: absolute
+	left: 0px
+	bottom: 0px
+	right: 0px
+	top: 0px
+	padding-top: 4%
+	margin: auto
+	max-width: 45%
+	//width: 40%
+	//margin-top: 5%	
+
+
+//#container .div-center	
+//	position: absolute
+//	left: 0px
+//	right: 0px
+//	top: 0px
+//	bottom: 0px
+//	margin: auto
+//	max-width: 100%
+//	max-height: 100%
+//	overflow: auto
+//	padding: 1em 2em	
+//	display: table
+//	width: 100%
+
+//#container .div-center #form-vertical #imgBg
+//	position: absolute
+//	left: 0px
+//	bottom: 0px
+//	right: 0px
+//	top: 20px
+	//margin: auto
+//	margin-top: 75%
+//	max-width: 100%
+//	z-index: -5
+
+//#container .div-center #form-vertical #imgFront
 	//top: -15%
 	//border: 4px solid red
 	//margin-top: -20%
-	width: 35%
+	//width: 35%
 
 
 #container .div-center #form-vertical .informacao
@@ -119,9 +149,11 @@ div#form-vertical form #cadastrar
 	//margin-top: 30%
 	margin-bottom: 5%
 	//padding-top: 50%
+	//padding: 5%
+	//background-color: #7626FF
 
 #container .div-center #form-vertical .informacao #textoApresentacao
-	padding-top: 5%
+	//padding-top: 5%
 	color: white
 	padding-bottom: 1%
 	font-weight: bold
@@ -138,6 +170,12 @@ div#form-vertical form #cadastrar
 #container .div-center #form-vertical .informacao button a
 	color: white
 
+#container .informacaoCelular
+	background-color: red	
+	height: 50%
+
+	
+
 #container .div-center #form-vertical .card-group #cardE
 	background-color: $corFundo!important
 	border-radius: 5px
@@ -147,6 +185,7 @@ div#form-vertical form #cadastrar
 	box-shadow: 0px 0px 7px 3px rgba(219,219,219,0.81)
 	z-index: 2
 	margin-top: 5%
+	
 
 #container .div-center #form-vertical .card-group #cardE .card-header
 	background-color: transparent!important

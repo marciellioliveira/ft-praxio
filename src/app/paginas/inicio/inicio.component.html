@@ -2,20 +2,35 @@
 
 	<app-menu></app-menu>
 
+<!--Quando sumir a imagem de fundo, mostrar essa div com as informações
+	<div class="informacaoCelular">sss</div>-->
+	
+		
+	
+	
 	<div class="jumbotron div-center" >	
+
+		<img  src="./assets/imagens/bg-front.png" alt="Background" id="imgBg">
+		<img  src="./assets/imagens/front-test.png" alt="FrontTeste" id="imgFront">
+
+		
+
 		<div class="row">
 
-			<div class="col-sm-2"></div>
+			<div class="col-sm-2" ></div>
 			<div class="col-sm-8 " id="form-vertical">	
 
 				<div class="Background">
 					<!--<h2>Random Background Image!</h2>-->
-				</div>
-			
-				<img  src="./assets/imagens/bg-front.png" alt="Background" id="imgBg">
-				<img  src="./assets/imagens/front-test.png" alt="FrontTeste" id="imgFront">
 
-				<div class="informacao" >							
+				</div>
+
+				<div class="d-none d-block d-sm-none d-sm-block d-md-none" style="background-color: #7626FF; height: 5%; width: 100%; margin-top: 25%; color: white; border-radius: 3px; margin-bottom: 2%">
+					Teste para a vaga de Programador Front-End Junior.<br>
+						Programadora: Marcielli Oliveira | Formada: Fatec Cruzeiro.
+				</div>
+				
+				<div class="informacao d-none d-md-block">
 
 					<p id="textoApresentacao">
 
@@ -27,6 +42,22 @@
 					<a href="https://github.com/marciellioliveira/ft-praxio"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Saiba mais</button></a>
 
 				</div>
+
+				<!--<img  src="./assets/imagens/bg-front.png" alt="Background" id="imgBg">
+				<img  src="./assets/imagens/front-test.png" alt="FrontTeste" id="imgFront">-->
+
+				<!--<div class="informacao" >
+
+					<p id="textoApresentacao">
+
+						Teste para a vaga de Programador Front-End Junior.<br>
+						Programadora: Marcielli Oliveira | Formada: Fatec Cruzeiro.
+					</p>
+
+
+					<a href="https://github.com/marciellioliveira/ft-praxio"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Saiba mais</button></a>
+
+				</div>-->
 
 				<div class="card-group" >
 					<div class="card bg-primary" id="cardE">
@@ -90,18 +121,18 @@
 				
 
 
-		</div> <!-- /form-vertical -->
+			</div> <!-- /form-vertical -->
 
 
-		<div class="col-sm-2 "></div>
+			<div class="col-sm-2 "></div>
 
 
-	
-	</div> <!-- /row -->	
 
-	
-<app-rodape></app-rodape>
-</div> <!-- /jumbotron /div.center -->
+		</div> <!-- /row -->	
+
+
+		<app-rodape></app-rodape>
+	</div> <!-- /jumbotron /div.center -->
 
 
 </div> <!-- /container.fluid /container -->
