@@ -22,16 +22,25 @@ div#form-vertical h5
 	float: left
 	margin-bottom: 5%
 
-div#form-vertical input	
-	//background-color: $corFundo
+div#form-vertical input		
 	border: 1px solid $corBordaInput
 	border-radius: 6px
-
 
 div#form-vertical input:focus
 	border: 1px solid $corBordaInput
 	box-shadow:none!important
 
+div#form-vertical .form-group 
+	position: relative
+
+div#form-vertical .form-group input[type="password"]
+	padding-right: 30px
+	background-color: transparent!important
+
+div#form-vertical .form-group .glyphicon
+	right: 65px
+ 	position: absolute
+  	top: 12px
 
 div#form-vertical form #recuperarSenha
 	font-size: 12px
