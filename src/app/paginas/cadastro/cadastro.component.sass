@@ -60,6 +60,17 @@ div#form-vertical form button
 	margin-top: 2%
 	border: 1px solid $corBordaBotao
 
+div#form-vertical form button:hover
+	height: 60px
+	width: 350px	
+	background-color: $corBotao
+	color: white
+	border-radius: 36px
+	margin-bottom: 2%
+	margin-top: 2%
+	border: 2px solid lightgrey
+
+
 div#form-vertical form #cadastrar
 	color: $corLink
 	font-size: 16px
@@ -88,28 +99,49 @@ div#form-vertical form #cadastrar
 	 left: 0px
 	 right: 0px
 
-.container-fluid .jumbotron #footer img
-	width: 100%
-
-.container-fluid .jumbotron #footer #rodapeCelular
-   position: fixed
-   left: 0
-   bottom: 0
-   width: 100%
-   background-color: #7626FF
-   color: white
-   text-align: center
-
-
-//.container-fluid .div-center .footer 
-//	position: fixed
-//	left: 0px
-//	width: 100%		 
-//	top: 86%
-
-//.container-fluid .div-center .footer img
+//.container-fluid .jumbotron #footer img
 //	width: 100%
+
+//.container-fluid .jumbotron #footer #rodapeCelular
+//   position: fixed
+ //  left: 0
+ //  bottom: 0
+ //  width: 100%
+ //  background-color: #7626FF
+ //  color: white
+ //  text-align: center
+
+ .container-fluid .div-center	
+	position: absolute
+	left: 0px
+	right: 0px
+	top: 0px
+	bottom: 0px
+	margin: auto
+	max-width: 100%
+	max-height: 100%
+	overflow: auto
+	padding: 1em 2em	
+	display: table
+	width: 100%
+	z-index: 5
 	
+
+.container-fluid .div-center .footer 	
+	position: fixed
+	left: 0px
+	width: 100%		 
+	top: 86%
+	//background-color: red
+	z-index: -1
+
+
+.container-fluid .div-center .footer img
+	width: 100%
+	
+
+
+
 
 	
 
