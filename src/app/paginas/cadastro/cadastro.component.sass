@@ -14,13 +14,13 @@ nav a
 	margin-left: 5%
 
 div#form-vertical 
-	text-align: center
+	//text-align: center
 
 div#form-vertical h5
 	font-size: 29px
 	color: $corTexto		
-	margin-bottom: 7%
-	float: left
+	margin-bottom: 4%
+	//float: left
 
 div#form-vertical label
 	float: left
@@ -29,6 +29,7 @@ div#form-vertical input
 	//background-color: $corFundo
 	border: 1px solid $corBordaInput
 	border-radius: 6px
+
 
 div#form-vertical input:focus
 	border: 1px solid $corBordaInput
@@ -45,14 +46,18 @@ div#form-vertical form #recuperarSenha
 	float: right
 	margin-top: -2%
 
+div#form-vertical form
+	text-align: center
+
 div#form-vertical form button
 	//width: 100%
 	height: 60px
-	width: 361.92px
+	width: 350px	
 	background-color: $corBotao
 	color: white
 	border-radius: 36px
 	margin-bottom: 2%
+	margin-top: 2%
 	border: 1px solid $corBordaBotao
 
 div#form-vertical form #cadastrar
@@ -66,32 +71,44 @@ div#form-vertical form #cadastrar
 	bottom: 0px
 
 .container-fluid .jumbotron
-	background-color: $corFundo
-	z-index: 4
+	background-color: transparent!important
 
-.container-fluid .div-center	
-	position: absolute
-	left: 0px
-	right: 0px
-	top: 0px
-	bottom: 0px
-	margin: auto
-	max-width: 100%
-	max-height: 100%
-	overflow: auto
-	padding: 1em 2em	
-	display: table
+.container-fluid .jumbotron #espacamento
+	margin-top: -4%
+	margin-bottom: 4%
+	
+
+.container-fluid .jumbotron #footer 
+	 height: 20%
+	 bottom: 0px
+	 display: block
+	 width: 100%
+	 text-align: center
+	 position: fixed
+	 left: 0px
+	 right: 0px
+
+.container-fluid .jumbotron #footer img
 	width: 100%
 
-.container-fluid .div-center .footer 
-	//height: 1043px	
-	position: fixed
-	left: 0px
-	width: 100%		 
-	top: 86%
+.container-fluid .jumbotron #footer #rodapeCelular
+   position: fixed
+   left: 0
+   bottom: 0
+   width: 100%
+   background-color: #7626FF
+   color: white
+   text-align: center
 
-.container-fluid .div-center .footer img
-	width: 100%
+
+//.container-fluid .div-center .footer 
+//	position: fixed
+//	left: 0px
+//	width: 100%		 
+//	top: 86%
+
+//.container-fluid .div-center .footer img
+//	width: 100%
 	
 
 	
